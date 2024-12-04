@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(63, 19, 102);
+    color: #fff;
+}
+
 .navbar-nav .nav-link.active {
     color: white;
 }
@@ -13,24 +18,23 @@
 }
 
 section {
-    height: 100vh;
-    background-color: (#fff);
-    padding-top: 70px;
+    padding: 40px 0;
 }
 
 header {
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 1030;
     background-color: #fff;
+    color: black;
 }
 
 .inicio {
-    height: 60vh;
     margin: 32px;
     padding: 8px;
     margin-bottom: 32px;
-    padding-top: 100px;
+    padding-top: 120px;
 }
 
 .inicio p {
@@ -39,7 +43,7 @@ header {
 
 .consoles {
     margin-bottom: 64px;
-    padding-top: 20px;
+    padding-top: 120px;
 }
 
 .card {
@@ -52,4 +56,13 @@ header {
 
 .contato {
     padding-top: 100px;
+}
+
+.formulario {
+    width: 400px;
+}
+
+.btn-success {
+    margin-top: 16px;
+    width: 150px;
 }

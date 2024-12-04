@@ -51,7 +51,7 @@
         <h2>Consoles em Destaque</h2>
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-12 col-sm-6 col-md-4 mb-4">
                     <article class="card">
                             <img src="https://dummyimage.com/100x100/ccc/555" alt="Imagem 100x100">
                             <div class="card-body">
@@ -66,7 +66,7 @@
                         </footer>
                     </article>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-sm-6 col-md-4 mb-4">
                     <article class="card">
                             <img src="https://dummyimage.com/100x100/ccc/555" alt="Imagem 100x100">
                             <div class="card-body">
@@ -81,7 +81,7 @@
                         </footer>
                     </article>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-sm-6 col-md-4 mb-4">
                     <article class="card">
                             <img src="https://dummyimage.com/100x100/ccc/555" alt="Imagem 100x100">
                             <div class="card-body">
@@ -101,7 +101,21 @@
     </section>
     <section class="contato" id="contato">
         <div class="container">
-            <h2>Contato</h2>
+            <h2>Entre em Contato</h2>
+                <div class="row">
+                    <div class="col">
+                        <form class="formulario">
+                            <label class="form-label" for="nome">Seu nome</label>
+                            <input class="form-control" type="text" id="nome" required>
+                            <label for="email" class="form-label">Seu e-mail</label>
+                            <input id="email" type="email" class="form-control" placeholder="exemplo@email.com" required >
+                            <label class="form-label" for="tel" type="text">Seu telefone</label>
+                            <input class="form-control" type="tel" id="telefone" name="telefone" required>
+                            <button class="btn btn-success" id="enviar">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 

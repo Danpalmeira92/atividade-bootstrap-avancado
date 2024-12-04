@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+section {
+    height: 100vh;
+    background-color: (#fff);
+    padding-top: 70px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+
+.inicio {
+    height: 60vh;
+    margin: 32px;
+    padding: 8px;
+    margin-bottom: 32px;
+    padding-top: 100px;
+}
+
+.inicio p {
+    text-align: justify;
+}
+
+.consoles {
+    margin-bottom: 64px;
+    padding-top: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.consoles h2 {
+    margin: 64px;
+}
+
+.contato {
+    padding-top: 100px;
+}

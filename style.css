@@ -99,3 +99,8 @@ header {
     max-width: 100%;
     height: auto;
 }
+
+.copy {
+    text-align: center;
+    margin-bottom: 10px;
+}

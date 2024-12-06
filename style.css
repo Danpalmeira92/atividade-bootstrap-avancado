@@ -86,3 +86,16 @@ header {
     margin-top: 16px;
     width: 150px;
 }
+
+.modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: justify;
+}
+
+.modal-body img {
+    max-width: 100%;
+    height: auto;
+}
